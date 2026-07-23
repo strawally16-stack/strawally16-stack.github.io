@@ -1,1 +1,28 @@
 
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["23WGTA45EG.com.yourcompany.PayPalAppSwitch"],
+        "components": [
+          {
+            "/": "/merchant-app/success",
+            "comment": "PayPal App Switch return - approved"
+          },
+          {
+            "/": "/merchant-app/cancel",
+            "comment": "PayPal App Switch return - cancelled"
+          },
+          {
+            "/": "/merchant-app/vault-success",
+            "comment": "PayPal Vault App Switch return - approved"
+          },
+          {
+            "/": "/merchant-app/vault-cancel",
+            "comment": "PayPal Vault App Switch return - cancelled"
+          }
+        ]
+      }
+    ]
+  }
+}
